@@ -7,9 +7,18 @@ A simple spinning loading web component based on macOS one.
 ⚖️ - less than ~900 bytes gzipped with stylese included 💅
 🍦 - Three flavours black, grey and black. And two sizes.
 
+👀 Demo: https://codesandbox.io/s/8njv8m1v88
+
 ## Installation
 
-npm install @midudev/wc-spinning-progress
+If you're using Webpack or Parcel, you could use directly the package:
+`npm install @midudev/wc-spinning-progress`
+
+Also, you could directly use the script using a CDN like unpkg:
+`<script src="https://unpkg.com/@midudev/wc-spinning-progress@0.0.1/dist/spinning-progress.umd.js"></script>`
+
+Module version is provided as well:
+`<script type='module' src="https://unpkg.com/@midudev/wc-spinning-progress@0.0.1/dist/spinning-progress.mjs"></script>`
 
 ## Usage
 
