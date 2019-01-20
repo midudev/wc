@@ -7,6 +7,9 @@
   "module": "dist/spinning-progress.mjs",
   "source": "src/spinning-progress.ts",
   "types": "dist/spinning-progress.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "microbundle",
     "clean": "rm dist/*",
