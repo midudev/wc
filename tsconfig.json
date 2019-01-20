@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "files": [
+    "src/spinning-progress.ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "allowJs": false,
+    "baseUrl": "."
+  }
+}
