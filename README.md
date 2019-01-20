@@ -1,5 +1,11 @@
 # spinning-progress-indicator-eleement
-A simple spinning loading web component based on macOS one
+A simple spinning loading web component based on macOS one.
+
+📦 - Microbundle for exporting .mjs
+🔎 - Uses Typescript for type checking
+👻 - Shadow DOM to not mess with your elements and styles
+⚖️ - less than ~900 bytes gzipped with stylese included 💅
+🍦 - Three flavours black, grey and black. And two sizes.
 
 ## Installation
 
