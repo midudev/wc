@@ -1,5 +1,5 @@
 {
-  "name": "spinning-progress-indicator-element",
+  "name": "@midudev/wc-spinning-progress",
   "version": "0.0.1",
   "description": "Spinning Progress Indicator Custom Element",
   "main": "dist/spinning-progress.js",
