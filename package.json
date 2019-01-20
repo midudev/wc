@@ -1,0 +1,36 @@
+{
+  "name": "spinning-progress-indicator-element",
+  "version": "0.0.1",
+  "description": "Spinning Progress Indicator Custom Element",
+  "main": "dist/spinning-progress.js",
+  "umd:main": "dist/spinning-progress.umd.js",
+  "module": "dist/spinning-progress.mjs",
+  "source": "src/spinning-progress.ts",
+  "types": "dist/spinning-progress.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "clean": "rm dist/*",
+    "dev": "microbundle watch",
+    "lint": "tslint -c tslint.json -t verbose 'src/**/*.{ts,tsx,js,jsx}'"
+  },
+  "devDependencies": {
+    "microbundle": "^0.6.0",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/spinning-progress-indicator.git"
+  },
+  "keywords": [
+    "custom",
+    "element"
+  ],
+  "author": "@midudev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/midudev/spinning-progress-indicator/issues"
+  },
+  "homepage": "https://github.com/midudev/spinning-progress-indicator#readme"
+}
