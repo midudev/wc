@@ -1,4 +1,4 @@
-# spinning-progress-indicator-eleement
+# spinning-progress-indicator-element
 A simple spinning loading web component based on macOS one.
 
 - 📦 [Microbundle](https://github.com/developit/microbundle) for exporting .mjs and optimize the output
