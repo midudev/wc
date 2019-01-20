@@ -3,7 +3,7 @@ A simple spinning loading web component based on macOS one
 
 ## Installation
 
-npm install -y 
+npm install @midudev/wc-spinning-progress
 
 ## Usage
 
