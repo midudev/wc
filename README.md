@@ -18,6 +18,12 @@ npm install -y
 <spinning-progress color='white' size='large'></spinning-progress>
 ```
 
+## What's next
+
+- [ ] Use custom properties instead attributes
+- [ ] Upgrade to latest microbundle and get everything working
+- [ ] Move this to a monorepo with more @midudev/wc?
+
 ## Contributing
 
 1. Fork it!
