@@ -20,7 +20,7 @@ const SIZES : ATTRIBUTES_DICTIONARY = {
 export class SpinningProgressElement extends HTMLElement {
   static get observedAttributes() { return ['size', 'color'] }
 
-  spinnerRoot : HTMLDivElement
+  spinner : HTMLDivElement
 
   constructor () {
     super()
@@ -28,18 +28,18 @@ export class SpinningProgressElement extends HTMLElement {
     const shadowRoot = this.attachShadow({ mode: 'open' })
     shadowRoot.innerHTML = styles
 
-    this.spinnerRoot = document.createElement('div')
-    this.spinnerRoot.classList.add('s', 'a')
-    this.spinnerRoot.innerHTML = '<i class=b></i>'.repeat(12)
-    shadowRoot.appendChild(this.spinnerRoot)
+    this.spinner = document.createElement('div')
+    this.spinner.classList.add('a') // a for animation
+    this.spinner.innerHTML = '<i></i>'.repeat(12)
+    shadowRoot.appendChild(this.spinner)
   }
 
   connectedCallback() {
-    this.spinnerRoot.setAttribute(COLORS._name, this.extractValueFor(COLORS))
-    this.spinnerRoot.setAttribute(SIZES._name, this.extractValueFor(SIZES))
+    this.spinner.setAttribute(COLORS._name, this.extractValueFor(COLORS))
+    this.spinner.setAttribute(SIZES._name, this.extractValueFor(SIZES))
   }
 
-  extractValueFor(attributeInfo : ATTRIBUTES_DICTIONARY) {
+  extractValueFor(attributeInfo : ATTRIBUTES_DICTIONARY) : string {
     const index : string = this.getAttribute(attributeInfo._name) || attributeInfo._default
     return attributeInfo[index]
   }
